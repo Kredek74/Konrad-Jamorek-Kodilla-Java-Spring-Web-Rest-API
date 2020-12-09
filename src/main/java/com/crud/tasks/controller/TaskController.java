@@ -18,7 +18,7 @@ public class TaskController {
     }
 
     @RequestMapping(method = RequestMethod.GET, value = "getTask")
-    public TaskDto getTesk(Long taskId) {
+    public TaskDto getTask(Long taskId) {
         return new TaskDto(1L, "test title", "test_content");
     }
 
